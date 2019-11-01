@@ -1,0 +1,1 @@
+可以定义vector<int>::iterator到int的map操作，但是不可以定义list<int>::iterator到int的map操作，因为map操作必须实现<操作，list的迭代器不支持比较运算。
